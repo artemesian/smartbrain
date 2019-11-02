@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "clarifai": "^2.9.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-particles-js": "^2.7.0",
@@ -11,6 +12,7 @@
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
+  "homepage": "https://angelodiepe.github.com/smartbrain",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -77,7 +77,7 @@ console.log(boxes)
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('http://localhost:3001/imageurl', {
+    fetch('https://a-face-recognition-api.herokuapp.com/imageurl', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -87,7 +87,7 @@ console.log(boxes)
     .then(res=>res.json())
     .then(response => {
       if (response.outputs) {
-        fetch('http://localhost:3001/image', {
+        fetch('https://a-face-recognition-api.herokuapp.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
