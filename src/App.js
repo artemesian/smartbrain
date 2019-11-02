@@ -31,11 +31,11 @@ class App extends Component {
       route: 'home',
       isSignedIn: true,
       user: {
-        id: '123',
-        name: 'Angelo',
-        email: 'angelodiepe10@yahoo.com',
+        id: '',
+        name: '',
+        email: '',
         entries: 0,
-        joined: new Date()
+        joined: ""
       }
     }
   }
