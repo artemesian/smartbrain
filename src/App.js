@@ -28,8 +28,8 @@ class App extends Component {
       input: '',
       imageUrl: '',
       boxes: [],
-      route: 'home',
-      isSignedIn: true,
+      route: '',
+      isSignedIn: false,
       user: {
         id: '',
         name: '',
@@ -51,7 +51,6 @@ class App extends Component {
   }
 
   calculateFaceLocation = (data) => {
-    console.log(data)
     const clarifaiFaces = data.outputs[0].data.regions;
     const image = document.getElementById('inputimage');
     const width = Number(image.width);
@@ -67,7 +66,6 @@ class App extends Component {
   }
 
   displayFaceBox = (boxes) => {
-console.log(boxes)
     this.setState({boxes: boxes});
   }
 
