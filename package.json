@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "smartbrain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
-  "homepage": "https://angelodiepe.github.io/smartbrain",
+  "homepage": "https://artemesian.github.io/smartbrain",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
